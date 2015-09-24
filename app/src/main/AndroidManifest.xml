@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.murach.tipcalculator"
+    package="com.kimery.tipcalculator"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".TipCalculatorActivity"
+            android:name="com.kimery.tipcalculator.TipCalculatorActivity"
             android:label="@string/title_activity_tip_calculator" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

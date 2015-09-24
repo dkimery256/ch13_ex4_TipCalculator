@@ -1,8 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp" >
+    android:padding="10dp">
 
     <!-- The bill amount -->
 
@@ -116,6 +115,37 @@
         android:layout_alignLeft="@+id/tipTextView"
         android:padding="5dp"
         android:text="@string/total_amount"
-        android:textSize="20sp" />    
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_tip_button"
+        android:id="@+id/saveTipButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="saveClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_tip_saved_label"
+        android:id="@+id/lastTipSavedLabel"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_text_view"
+        android:id="@+id/dateTextView"
+        android:textSize="20sp"
+        android:layout_below="@+id/lastTipSavedLabel"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"/>
 
 </RelativeLayout>

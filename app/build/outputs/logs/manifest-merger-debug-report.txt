@@ -31,7 +31,7 @@ ADDED from AndroidManifest.xml:10:5
 		ADDED from AndroidManifest.xml:11:9
 	android:theme
 		ADDED from AndroidManifest.xml:13:9
-activity#com.murach.tipcalculator.TipCalculatorActivity
+activity#com.kimery.tipcalculator.TipCalculatorActivity
 ADDED from AndroidManifest.xml:14:9
 	android:label
 		ADDED from AndroidManifest.xml:16:13
